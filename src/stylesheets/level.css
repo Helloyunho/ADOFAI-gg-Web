@@ -13,7 +13,7 @@
 }
 
 .level-info-thumbnail {
-  width: 1100px;
+  
   height: 190px;
   object-fit: cover;
   object-position: 0 50%;
@@ -24,7 +24,7 @@
 }
 
 .level-info-basic {
-  width: 1060px;
+  
   height: 160px;
   padding: 23px;
   padding-top: 18px;
@@ -58,7 +58,7 @@
 }
 
 .level-info-song-name {
-  width: 800px;
+  
   color: rgba(255, 255, 255, 80%);
   margin-top: -10px;
   font-size: 16px;
@@ -78,7 +78,7 @@
 }
 
 .level-info-author {
-  width: 800px;
+  
   color: white;
   margin-top: 25px;
   font-size: 20px;
@@ -89,7 +89,7 @@
 
 .level-info-tags {
   display: flex;
-  width: 880px;
+  
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -122,7 +122,7 @@
 .level-info-tag::before {
   content: "#";
   height: 20px;
-  width: 20px;
+  
   margin-right: 5px;
   border-radius: 100em;
   background-color: #dfdfdf;
@@ -181,7 +181,7 @@
 }
 
 .level-info-swal-popup {
-  width: 900px;
+  
 }
 
 .level-info-header-buttons {
@@ -190,7 +190,7 @@
 }
 
 .level-info-header-buttons .level-info-header-button svg {
-  width: 50px;
+  
   height: 50px;
   margin-left: 20px;
   transition: all 0.2s ease;
@@ -259,7 +259,7 @@
 .level-info-detail-info-video iframe {
   border-radius: 10px;
   height: 270px;
-  width: 432px;
+  
 }
 
 .level-info-detail-info-video div {
@@ -295,7 +295,7 @@
 }
 
 .level-info-leaderboard-item-rank {
-  width: 72px;
+  
   height: calc(100% + 6px);
   padding-left: 17.5px;
   padding-right: 17.5px;
@@ -311,14 +311,14 @@
 }
 
 .level-info-leaderboard-item-content {
-  width: 980px;
+  
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
 .level-info-leaderboard-item-name {
-  width: 600px;
+  
   margin-right: 65px;
   font-size: 1.5em;
   font-weight: 500;
@@ -334,7 +334,7 @@
 }
 
 .level-info-leaderboard-item-detail-pp {
-  width: 180px;
+  
   font-weight: 600;
 }
 

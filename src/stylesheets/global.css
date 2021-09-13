@@ -57,7 +57,7 @@ body,
 }
 
 body {
-  min-width: 1120px;
+  
   margin: 0;
   font-family: Quicksand, "나눔스퀘어라운드", sans-serif;
   font-weight: 400;
@@ -74,7 +74,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  
   height: 10px;
 }
 
@@ -188,13 +188,13 @@ nav {
 
 .nav-pages {
   flex-basis: 80%;
-  min-width: 550px;
+  
 }
 
 .nav-logo,
 .nav-login {
   flex-basis: 10%;
-  min-width: 275px;
+  
 }
 
 nav div {
@@ -204,7 +204,7 @@ nav div {
 
 main {
   display: flex;
-  min-width: 1120px;
+  
   flex-direction: column;
   align-items: center;
   color: white;
@@ -221,7 +221,7 @@ main {
 .content-title {
   margin-top: 40px;
   display: flex;
-  width: 1090px;
+  
   margin-left: auto;
   margin-right: auto;
 }
@@ -235,7 +235,7 @@ main {
 
 .level-item-info {
   position: relative;
-  width: 1100px;
+  
   height: 70px;
   margin-bottom: 8px;
 }
@@ -244,7 +244,7 @@ main {
   top: 0;
   left: 0;
   position: absolute;
-  width: 1100px;
+  
   height: 70px;
   border-radius: 10px;
   overflow: hidden;
@@ -306,7 +306,7 @@ main {
   margin-left: 10px;
   padding: 5px;
   height: 40px;
-  width: 40px;
+  
 }
 
 .level-item-info-section {
@@ -347,7 +347,7 @@ main {
 }
 
 .tooltip-container .tooltiptext {
-  width: 120px;
+  
   top: 120%;
   left: -50px;
   text-overflow: ellipsis;
@@ -376,7 +376,7 @@ main {
 /* SEARCH SECTION */
 
 .list-search-container {
-  width: 1080px;
+  
   min-height: 32px;
   margin-top: 10px;
   padding: 10px;
@@ -439,7 +439,6 @@ main {
 .list-search-filter-button svg,
 .list-search-sort-button svg {
   height: 32px;
-  width: 20px !important;
 }
 
 .list-search-filter,
@@ -448,7 +447,7 @@ main {
 }
 
 .list-search-content-title {
-  width: 1080px;
+  
   border-top-color: rgba(255, 255, 255, 0.4);
   border-top-width: 1px;
   border-top-style: solid;
@@ -536,7 +535,7 @@ main {
 .user-menu-button {
   padding: 0;
   border: none;
-  width: 64px;
+  
   height: 64px;
   position: fixed;
   bottom: 40px;
@@ -564,7 +563,7 @@ footer {
 
 .footer-content {
   height: 100%;
-  width: 1060px;
+  
   bottom: 0;
   margin-top: 100px;
   margin-left: auto;

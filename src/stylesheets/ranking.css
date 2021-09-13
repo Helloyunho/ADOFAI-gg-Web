@@ -1,9 +1,9 @@
 .ranking-title {
-  width: 1100px;
+  
 }
 
 .ranking-content {
-  width: 1100px;
+  
 }
 
 .ranking-item {
@@ -27,7 +27,7 @@
 }
 
 .ranking-item-rank {
-  width: 72px;
+  
   height: calc(100% + 6px);
   padding-left: 17.5px;
   padding-right: 17.5px;
@@ -43,13 +43,13 @@
 }
 
 .ranking-item-content {
-  width: 980px;
+  
   display: flex;
   align-items: center;
 }
 
 .ranking-item-name {
-  width: 190px;
+  
   margin-right: 65px;
   font-size: 1.2em;
   font-weight: 500;
@@ -59,14 +59,14 @@
 }
 
 .ranking-item-detail {
-  width: 780px;
+  
   display: flex;
   align-items: center;
   opacity: 0.8;
 }
 
 .ranking-item-detail-pp {
-  width: 180px;
+  
   font-weight: 600;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .ranking-item-detail-highest-title {
-  width: 280px;
+  
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -149,13 +149,13 @@
 }
 
 .ranking-item:nth-child(-n + 3) .ranking-item-name {
-  width: 600px;
+  
   font-size: 1.5em;
   font-weight: 500;
 }
 
 .ranking-item:nth-child(-n + 3) .ranking-item-detail {
-  width: 900px;
+  
   font-size: 1.1em;
 }
 .ranking-item:nth-child(-n + 3) .ranking-item-detail-highest-title {

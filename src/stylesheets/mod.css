@@ -1,7 +1,7 @@
 .mod-info-feature {
   margin-top: 30px;
   padding-bottom: 15px;
-  width: 1100px;
+  
   border-bottom-color: rgba(255, 255, 255, 0.4);
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -18,7 +18,7 @@
 }
 
 .mod-info-category-icon {
-  width: 40px;
+  
   margin-right: 10px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .mod-info-buttons .mod-info-button svg {
-  width: 40px;
+  
   height: 40px;
   margin-left: 15px;
 }
@@ -86,7 +86,7 @@
 }
 
 .mod-info-body {
-  width: 1100px;
+  
   margin-top: 5px;
   word-break: break-word;
   /* font-family: "Quicksand", "나눔스퀘어라운드", "나눔고딕", "나눔스퀘어", "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Segoe UI WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */

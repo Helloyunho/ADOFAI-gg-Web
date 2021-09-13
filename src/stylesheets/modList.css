@@ -1,5 +1,5 @@
 .mod-list {
-  width: 1100px;
+  
 }
 
 .mod-list-item {
@@ -34,7 +34,7 @@
 }
 
 .mod-list-mod-category img {
-  width: 25px;
+  
   opacity: 0.7;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .mod-list-mod-description {
-  width: 950px;
+  
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
