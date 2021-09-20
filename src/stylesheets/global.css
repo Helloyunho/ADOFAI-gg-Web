@@ -174,6 +174,13 @@ input:focus {
   width: 100%;
 }
 
+@media (min-width: 1920px) {
+  .container {
+    width: 53.333333%;
+    margin: 0 auto;
+  }
+}
+
 .logo-middle {
   display: inline-block;
   height: 100%;

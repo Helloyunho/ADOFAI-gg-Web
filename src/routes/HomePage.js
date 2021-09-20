@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import Swal from "sweetalert2";
+import React, { useState } from 'react'
+import Swal from 'sweetalert2'
 
 // Components
 // import MainAddInfo from "../components/MainAddInfo";
-import MainTopPlays from "../components/MainTopPlays";
-import MainPopularLevels from "../components/MainPopularLevels";
-import { useHistory } from "react-router-dom";
+import MainTopPlays from '../components/MainTopPlays'
+import MainPopularLevels from '../components/MainPopularLevels'
+import { useHistory } from 'react-router-dom'
 
 const HomePage = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  let history = useHistory();
+  const [searchTerm, setSearchTerm] = useState('')
+  let history = useHistory()
   const userMenu = () => {
     Swal.fire({
-      title: "Submit & Info",
+      title: 'Submit & Info',
       html: `
       <a class="main-user-menu-context" href="https://forms.gle/XdKNuqVrt974F7Ab6">Submit your play</a>
       <hr>
@@ -23,34 +23,38 @@ const HomePage = () => {
       <a class="main-user-menu-context" href="https://7thbe.at/verified-artists">Song copyrights</a>
       `,
       customClass: {
-        popup: "main-user-menu",
+        popup: 'main-user-menu'
       },
-      showConfirmButton: false,
-    });
-  };
+      showConfirmButton: false
+    })
+  }
 
   return (
     <main>
-      <img className="main-logo" src="/logo.svg" alt="" />
-      <h2 style={{ marginTop: "10px" }}>
-        Based On The{" "}
-        <a
-          href="https://docs.google.com/spreadsheets/d/1PzLHfWmVWJHrBGnNSsLTsdH0ibdk0hB4MpKHET1nkpU/edit#gid=1848316468"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="main-yellow-highlight">Unofficial ADOFAI Forum</span>
-        </a>
-      </h2>
+      <div className='top-banner'>
+        <img className='main-logo' src='/logo.svg' alt='' />
+        <h2 style={{ marginTop: '10px' }}>
+          Based On The{' '}
+          <a
+            href='https://docs.google.com/spreadsheets/d/1PzLHfWmVWJHrBGnNSsLTsdH0ibdk0hB4MpKHET1nkpU/edit#gid=1848316468'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <span className='main-yellow-highlight'>
+              Unofficial ADOFAI Forum
+            </span>
+          </a>
+        </h2>
+      </div>
       <input
-        className="main-search-bar"
-        type="text"
-        placeholder="Search Song, Artist, or Creator"
-        onChange={(e) => setSearchTerm(e.target.value)}
-        onKeyPress={(event) =>
-          event.key === "Enter"
-            ? history.push("/levels?query=" + searchTerm)
-            : ""
+        className='main-search-bar'
+        type='text'
+        placeholder='Search Song, Artist, or Creator'
+        onChange={e => setSearchTerm(e.target.value)}
+        onKeyPress={event =>
+          event.key === 'Enter'
+            ? history.push('/levels?query=' + searchTerm)
+            : ''
         }
       />
       {/* <MainAddInfo playersOnline='999999' rankedPlayers='999999' rankedLevels='999999' unclearedLevels='999999'/> */}
@@ -58,10 +62,10 @@ const HomePage = () => {
       <MainPopularLevels />
       <button
         onClick={userMenu}
-        className="user-menu-button"
+        className='user-menu-button'
         style={{ background: 'url("/other_icons/message.svg")' }}
       />
     </main>
-  );
-};
-export default HomePage;
+  )
+}
+export default HomePage
